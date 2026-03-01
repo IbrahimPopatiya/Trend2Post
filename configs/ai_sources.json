@@ -1,0 +1,36 @@
+{
+  "niche": "ai",
+  "description": "Applied AI, GenAI, LLMs, RAG, Agents",
+  "sources": [
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog",
+      "type": "blog",
+      "trust_score": 0.95
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog",
+      "type": "blog",
+      "trust_score": 0.95
+    },
+    {
+      "name": "LangChain Blog",
+      "url": "https://blog.langchain.dev",
+      "type": "blog",
+      "trust_score": 0.9
+    },
+    {
+      "name": "LlamaIndex Blog",
+      "url": "https://www.llamaindex.ai/blog",
+      "type": "blog",
+      "trust_score": 0.9
+    },
+    {
+      "name": "GitHub Trending AI",
+      "url": "https://github.com/trending?since=daily",
+      "type": "github",
+      "trust_score": 0.85
+    }
+  ]
+}
