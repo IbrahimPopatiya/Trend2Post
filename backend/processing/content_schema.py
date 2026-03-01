@@ -13,6 +13,7 @@ class ContentItem(BaseModel):
     url: HttpUrl
 
     published_date: Optional[datetime]
+    author: Optional[str] = None
     collected_at: datetime
 
     niche: str

@@ -23,6 +23,7 @@ class ContentStore:
         url: str,
         niche: str,
         published_date=None,
+        author: str | None = None,
     ) -> ContentItem:
         """
         Validate and store a content item.
@@ -35,6 +36,7 @@ class ContentStore:
             source_name=source_name,
             url=url,
             published_date=published_date,
+            author=author,
             collected_at=datetime.utcnow(),
             niche=niche,
         )
